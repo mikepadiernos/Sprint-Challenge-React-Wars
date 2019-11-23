@@ -1,19 +1,22 @@
 import React from 'react';
+import { Card, CardHeader, CardBody } from '../presentation/Card';
 
 const Person = props => {
 	return (
-		<article className='card'>
-			<div className='card-header'>
+		<Card>
+			<CardHeader>
 				<h2 className='person-name'>
 					{props.name}
 				</h2>
-			</div>
-			<div className='card-body'>
-				<p> </p>
-				<p> </p>
-				<p> </p>
-			</div>
-		</article>
+			</CardHeader>
+			<CardBody>
+				<p><b>Birth Year:</b> {props.birth}</p>
+				<p><b>Height:</b> {props.height}</p>
+				<p><b>Skin Color:</b> {props.skin}</p>
+				<p><b>Hair Color:</b> {props.hair}</p>
+				<p><b>Eye Color:</b> {props.eye}</p>
+			</CardBody>
+		</Card>
 	)
 };
 
