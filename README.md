@@ -24,15 +24,32 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+**- [ ] What is React JS and what problems does it try and solve?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Support your answer with concepts introduced in class and from your personal research on the web.**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+At the most simplest terms: ReactJS is a library used to create user interfaces.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ReactJS has been a boon in making interactions to the DOM easier and faster through the virtual DOM.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+When visiting a site with many dynamic DOM interactions, ReactJS can update the UI data without updating the whole UI by updating only the ones that has changed. 
 
-- [ ] What does it mean to _think_ in react?
+**- [ ] What does it mean to _think_ in react?**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To "think" in React is to "think" how the parts of a React app works. How each component fit together like a puzzle.
 
-- [ ] Describe state.
+**- [ ] Describe state.**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+When values of a component changes, which are stored in "state", the component re-renders.
 
-- [ ] Describe props.
+**- [ ] Describe props.**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Pros are short for properties and are arguments that get passed through between components.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+**- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Side effects are anything outside the scope of a function. You can sync effects by passing a dependency array as the second argument.
+
 
 ## Project Set Up
 
